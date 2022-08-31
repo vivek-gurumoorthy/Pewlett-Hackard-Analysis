@@ -89,7 +89,7 @@ ON (ce.emp_no = de.emp_no)
 INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
 
--- Information about employees in the Sales team
+-- Information about employees eligible for retirement in the Sales team
 SELECT r.emp_no, r.first_name, r.last_name, d.dept_name
 INTO sales_info
 FROM retirement_info as r
@@ -98,4 +98,14 @@ FROM retirement_info as r
      INNER JOIN departments as d
           ON (de.dept_no = d.dept_no)
 WHERE dept_name = 'Sales'; 
+
+-- Information about employees eligible for mentorship program in both the Sales and Development teams
+SELECT r.emp_no, r.first_name, r.last_name, d.dept_name
+INTO mentor_info
+FROM retirement_info as r
+     INNER JOIN dept_emp as de
+          ON (r.emp_no = de.emp_no)
+     INNER JOIN departments as d
+          ON (de.dept_no = d.dept_no)
+WHERE dept_name IN ('Sales', 'Development'); 
           
