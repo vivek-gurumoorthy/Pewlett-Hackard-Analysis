@@ -4,7 +4,8 @@
 
 The purpose of this analysis is to gain insight into which employees at Pewlett Hackard are likely to retire in the coming years. Additionally, quantifying and categorizing these results assists in helping the company understand the areas from which it is going to lose employees in the future. This information can be used to inform hiring strategies as well as other internal initiatives such as mentoring programs for more junior employees.
 
-Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
+**Results**:
+
 ![image](https://user-images.githubusercontent.com/108832056/187738089-e1eb62c0-32ef-4f01-837f-e1ef7637ae69.png) 
 
 - This count is derived from the number of rows in the retirement_titles.csv. This initially makes it seem as if 133,776 employees are retiring, which would be a completely staggering number. Then, once it has been noted that this includes multiple titles per employee, it makes it clear that this isn't an accurate depiction of the data.
