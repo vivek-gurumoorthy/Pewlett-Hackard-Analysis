@@ -28,9 +28,11 @@ The purpose of this analysis is to gain insight into which employees at Pewlett 
 According to the count of the unique_titles.csv table, 72,458 roles will need to be filled as senior employees begin to retire.
 
 
+
 *Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?*
 
 While having 1,549 employees eligible for the mentorship program seems promising, the fact that they have to mentor nearly 72,458 new hires in total seems a bit daunting. It will be possible, but perhaps not as invidualized mentorship as originally envisioned. 
+
 
 
 *Other inquiries that would inform hiring and mentorship strategies include:*
