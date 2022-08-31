@@ -1,6 +1,6 @@
 # Pewlett-Hackard-Analysis
 
-Overview of the analysis: 
+**Overview of the analysis: 
 
 The purpose of this analysis is to gain insight into which employees at Pewlett Hackard are likely to retire in the coming years. Additionally, quantifying and categorizing these results assists in helping the company understand the areas from which it is going to lose employees in the future. This information can be used to inform hiring strategies as well as other internal initiatives such as mentoring programs for more junior employees.
 
