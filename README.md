@@ -31,7 +31,7 @@ According to the count of the unique_titles.csv table, 72,458 roles will need to
 
 While having 1,549 employees eligible for the mentorship program seems promising, the fact that they have to mentor nearly 72,458 new hires in total seems a bit daunting. It will be possible, but perhaps not as invidualized mentorship as originally envisioned. 
 
-Other inquiries that would inform hiring and mentorship strategies include:
+**Other inquiries that would inform hiring and mentorship strategies include:**
 
 1. Categorizing all employees in unique_titles.csv by department. While it is useful to understand that a Senior Engineer or Senior Staff role may be needed, it would be additional informative to understand the department from which the largest number of these employees are retiring. 
 2. Aggregating a list of all titles, present and previous, for those eligible for the mentorship initiative would provide a good idea of the specific roles on which these employees could provide mentorship. Especially for those with many previous roles, because of the dearth of eligible mentors, these employees will likely have to train many newer employees.
