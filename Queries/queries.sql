@@ -1,3 +1,4 @@
+-- Create first instance of retirement_info table
 SELECT first_name, last_name
 INTO retirement_info
 FROM employees
@@ -76,6 +77,7 @@ FROM dept_manager AS dm
     INNER JOIN current_emp AS ce
         ON (dm.emp_no = ce.emp_no);
 
+-- List of department retirees
 SELECT ce.emp_no,
 ce.first_name,
 ce.last_name,
