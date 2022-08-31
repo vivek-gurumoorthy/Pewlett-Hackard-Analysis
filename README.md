@@ -11,10 +11,15 @@ This count is derived from the number of rows in the retirement_titles.csv. This
 
 - ![image](https://user-images.githubusercontent.com/108832056/187738326-1993f08e-ea21-4475-a1c2-1d300610842c.png)
 
-This count is derived from the number of rows in the unique_titles.csv. This makes sure that each employee number in the table will be distinct, precluding the possibility of having an inaccurate count of the number of retiring employees. Now, we can see the most recent title for each employee due to having ordered by date descending. This displays the importance of cleaning the data, as the count now shows 72,458 employees instead of 133,776. This is still a large number, but at least it is accurate.
+This count is the number of rows in the unique_titles.csv. This makes sure that each employee number in the table will be distinct, precluding the possibility of having an inaccurate count of the number of retiring employees. Now, we can see the most recent title for each employee due to having ordered by date descending. This displays the importance of cleaning the data, as the count now shows 72,458 employees instead of 133,776. This is still a large number, but at least it is accurate.
 
-- j
-- j
+- ![image](https://user-images.githubusercontent.com/108832056/187740510-2a811191-cf74-42f8-878a-d09c1b56a55c.png)
+
+This is the information from the retiring_titles.csv. While the previous table helped inform stakeholders of how many total employees will need to be replaced and their titles, this table groups all titles from the last table into one easily viewable form. Clearly, both Senior Engineer and Senior Staff are titles from which a significant number of employees are being lost in the near future, while Assistant Engineer and Manager have many fewer vacancies that will open due to eventual retirements. Based on the titles that have higher counts in this table, those positions can be targeted more aggressively in hiring ventures.
+
+- ![image](https://user-images.githubusercontent.com/108832056/187741454-530a6537-fdad-473a-96f3-0ca38f146f99.png)
+
+This counts the number of employees currently eligible for the mentorship program. This number 1,549, is significantly smaller than the number of soon-to-be retirees, 72,458. This may be a worrying sign.
 
 Summary: 
 * Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
