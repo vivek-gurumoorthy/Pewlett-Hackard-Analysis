@@ -32,7 +32,7 @@ FROM unique_titles
 GROUP BY title
 ORDER BY COUNT(title) DESC;
 
--- Use Dictinct with Orderby to remove duplicate rows
+-- Create mentorship eligibility table
 SELECT DISTINCT ON (e.emp_no) e.emp_no,
 e.first_name,
 e.last_name,
