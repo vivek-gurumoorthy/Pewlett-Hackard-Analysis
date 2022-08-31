@@ -90,11 +90,11 @@ INNER JOIN departments AS d
 ON (de.dept_no = d.dept_no);
 
 -- Information about employees in the Sales team
-SELECT e.emp_no, e.first_name, e.last_name, d.dept_name
+SELECT r.emp_no, r.first_name, r.last_name, d.dept_name
 INTO sales_info
-FROM employees as e
+FROM retirement_info as r
      INNER JOIN dept_emp as de
-          ON (e.emp_no = de.emp_no)
+          ON (r.emp_no = de.emp_no)
      INNER JOIN departments as d
           ON (de.dept_no = d.dept_no)
 WHERE dept_name = 'Sales'; 
